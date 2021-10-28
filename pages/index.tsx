@@ -12,17 +12,17 @@ const Home: NextPage = () => {
         render={() => (
           <div className="section text-center">
             <div
-              className="text-8xl"
-              style={{ color: "#FFC3C3", letterSpacing: "30px" }}
+              className="text-5xl md:text-8xl tracking-normal md:tracking-desktop"
+              style={{ color: "#FFC3C3" }}
             >
               PORTFOLIO
             </div>
-            <div className="pt-2 text-5xl">
+            <div className="md:pt-2 text-3xl md:text-5xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-start to-end">
                 Marty
               </span>
             </div>
-            <div className="flex justify-center pt-4 gap-x-4">
+            <div className="flex justify-center pt-1.5 md:pt-4 gap-x-4">
               <Link href="https://twitter.com/marty197812">
                 <a href="https://twitter.com/marty197812">
                   <FontAwesomeIcon

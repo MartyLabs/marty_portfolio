@@ -10,6 +10,9 @@ module.exports = {
       start: "#A2CAFF",
       end: "#006FFF",
     }),
+    letterSpacing: {
+      desktop: "30px"
+    }
   },
   variants: {
     extend: {},
