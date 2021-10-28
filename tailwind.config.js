@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {},
     backgroundColor: (theme) => ({
-      main: "#232027"
+      main: "#232027",
     }),
     gradientColorStops: (theme) => ({
       start: "#A2CAFF",
-      end: "#006FFF"
-    })
+      end: "#006FFF",
+    }),
   },
   variants: {
     extend: {},
